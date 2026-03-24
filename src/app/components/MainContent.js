@@ -95,7 +95,7 @@ export default function MainContent({ isShifted, isExpanded, items, showEmptySta
                         </div>
                     )}
                 </div>
-                <div className='absolute bottom-[16px] right-[16px] flex items-center gap-[8px] text-grey-700'>
+                {/* <div className='absolute bottom-[16px] right-[16px] flex items-center gap-[8px] text-grey-700'>
                     <span className='font-mono'>Use panel view</span>
                     <button
                         onClick={() => setUsePanelView(!usePanelView)}
@@ -105,7 +105,7 @@ export default function MainContent({ isShifted, isExpanded, items, showEmptySta
                             className={`absolute top-[3px] w-[14px] h-[14px] rounded-full bg-grey-900 transition-transform duration-200 ${ usePanelView ? 'left-[14px]' : 'left-[3px]'}`}
                         />
                     </button>
-                </div>
+                </div> */}
             </motion.div>
         </motion.div>
     )
